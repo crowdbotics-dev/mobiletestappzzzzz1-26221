@@ -10,20 +10,16 @@ const Untitled1 = () => {
     height: '100%'
   }}>
       <RadioGroup radioButtons={[{
-      id: "0",
-      value: "0",
-      label: "Option 1"
-    }, {
       id: "1",
-      value: "1",
-      label: "Option 2"
+      label: "Option 1",
+      value: "option1"
     }, {
       id: "2",
-      value: "2",
-      label: "Option 3"
+      label: "Option 2",
+      value: "option2"
     }]} layout="column" style={{
-      left: 64,
-      top: 131,
+      left: 97,
+      top: 141,
       position: "absolute"
     }}></RadioGroup></View>;
 };
