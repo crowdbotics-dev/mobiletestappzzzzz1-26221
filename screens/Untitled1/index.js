@@ -1,4 +1,3 @@
-import { RadioGroup } from "react-native-radio-buttons-group";
 import React from "react";
 import { View } from "react-native";
 
@@ -9,19 +8,16 @@ const Untitled1 = () => {
     position: 'relative',
     height: '100%'
   }}>
-      <RadioGroup radioButtons={[{
-      id: "1",
-      label: "Option 1",
-      value: "option1"
-    }, {
-      id: "2",
-      label: "Option 2",
-      value: "option2"
-    }]} layout="row" style={{
-      left: 97,
-      top: 141,
-      position: "absolute"
-    }}></RadioGroup></View>;
+      <View style={{
+      left: 16,
+      top: 68,
+      position: "absolute",
+      height: 60,
+      width: 140,
+      backgroundColor: "#E4E4E4",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View></View>;
 };
 
 export default Untitled1;
