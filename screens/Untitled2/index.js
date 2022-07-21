@@ -3,7 +3,7 @@ import { Text } from "react-native";
 import React from "react";
 import { View } from "react-native";
 
-const Untitled1 = ({
+const Untitled2 = ({
   navigation
 }) => {
   return <View style={{
@@ -12,9 +12,9 @@ const Untitled1 = ({
     position: 'relative',
     height: '100%'
   }}>
-      <Pressable onPress={() => navigation.navigate("Untitled2")}><Text style={{
-        left: 50,
-        top: 40,
+      <Pressable onPress={() => navigation.navigate("Untitled3")}><Text style={{
+        left: 58,
+        top: 44,
         position: "absolute",
         width: 100,
         height: 50,
@@ -22,8 +22,8 @@ const Untitled1 = ({
         fontSize: 14,
         borderRadius: 0
       }}>Lorem ipsum… </Text></Pressable><Pressable onPress={{}}><View style={{
-        left: 24,
-        top: 174,
+        left: 23,
+        top: 173,
         position: "absolute",
         height: 60,
         width: 140,
@@ -33,4 +33,4 @@ const Untitled1 = ({
       }}></View></Pressable></View>;
 };
 
-export default Untitled1;
+export default Untitled2;
